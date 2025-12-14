@@ -1,0 +1,75 @@
+
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'Chard';
+    src: url('../fontes/Chard-BF6860b73cc3309.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.fundoPagInicial {
+    min-height: 100vh;
+    width: 100vw;
+
+    background-image:
+        url("../sprites/CartaPga.png"),
+        conic-gradient(
+            green 90deg,
+            rgb(4, 245, 4) 90deg 180deg,
+            green 180deg 270deg,
+            rgb(4, 245, 4) 270deg
+        );
+
+    background-repeat: no-repeat, repeat;
+    background-position: right center, center;
+    background-size: 40% auto, 100px 100px;
+    position: relative;
+}
+
+.logoGame {
+    position: absolute;
+
+    top: 200px;
+    left: 200px;
+
+    width: 550px;   
+    height: 80px;  
+
+    background-color: yellow;
+    border-radius: 20px;
+    border: #003311 3px solid;
+
+    padding: 20px 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nomeGame {
+    font-family: 'Chard';
+    font-size: 50px;
+    letter-spacing: 5px;
+    color: #06511f;
+
+    white-space: nowrap;
+    transform: translateY(7px);
+
+
+    text-shadow:
+        3px 3px 0 #006622,
+        4px 4px 0 #003311;
+}
+
+
+
+
+
