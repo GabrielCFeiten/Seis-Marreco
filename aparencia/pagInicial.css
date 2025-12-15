@@ -31,6 +31,7 @@ html, body {
     background-position: right center, center;
     background-size: 40% auto, 100px 100px;
     position: relative;
+    
 }
 
 .logoGame {
@@ -42,7 +43,7 @@ html, body {
     width: 550px;   
     height: 80px;  
 
-    background-color: yellow;
+    background-color: rgb(202, 202, 16);
     border-radius: 20px;
     border: #003311 3px solid;
 
@@ -51,8 +52,11 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
 
+    box-shadow:
+        3px 3px 0 #006622,
+        4px 4px 0 #003311;
+}
 
 .nomeGame {
     font-family: 'Chard';
@@ -65,6 +69,35 @@ html, body {
 
 
     text-shadow:
+        3px 3px 0 #006622,
+        4px 4px 0 #003311;
+}
+
+.botoesPagInicial {
+    position: absolute;
+    font-family: Chard;
+
+    top: 325px;
+    left: 300px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#botaoPag {
+    width: 300px;
+    height: 60px;
+
+    font-size: 20px;
+    font-weight: bold;
+    color: #003311;
+
+    border-radius: 15px;
+    border: #003311 3px solid;
+    white-space: nowrap;
+
+    box-shadow:
         3px 3px 0 #006622,
         4px 4px 0 #003311;
 }
